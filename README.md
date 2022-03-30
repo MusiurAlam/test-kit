@@ -13,6 +13,10 @@ In order to install the project in your local machine run the commands below: <b
   ```
 <br>
 
+Visit the deplyoed site: `https://test-kit-rouge.vercel.app/`
+<br>
+<br>
+
 ## You will find in this project
 - Basic routes such as home, about, settings etc. <br>
   index.svelte
