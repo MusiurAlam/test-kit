@@ -6,8 +6,8 @@ This is a starter project I have created using Svelte and SCSS.<br><br>
 In order to install the project in your local machine run the commands below: <br>
 
   ```
-    1. git clone repolink
-    2. cd /project_name
+    1. git clone https://github.com/MusiurAlam/test-kit.git
+    2. cd test-kit
     3. yarn install / npm install
     4. yarn start / npm start
   ```
@@ -102,7 +102,13 @@ In order to install the project in your local machine run the commands below: <b
     <slot />
 
     <footer>
-        <p>Created by <span>/musiur_alam_opu</span></p>
+    <p>
+        Created by <span
+        ><a href="https://github.com/MusiurAlam" target="_blank" rel="noopener"
+            >@musiur_alam_opu</a
+        ></span
+        >
+    </p>
     </footer>
 
     <style lang="scss">
@@ -129,12 +135,12 @@ In order to install the project in your local machine run the commands below: <b
         }
 
         h1 {
-        a {
-            font-weight: 600;
-            background: -webkit-linear-gradient(60deg, #ff0202, #ffce72);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+            a {
+                font-weight: 600;
+                background: -webkit-linear-gradient(60deg, #ff0202, #ffce72);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
         }
     }
 
@@ -148,17 +154,26 @@ In order to install the project in your local machine run the commands below: <b
         text-align: center;
 
         p {
-            font-weight: 600;
+        font-weight: 600;
 
-            span {
+            span,
+            a {
                 color: orangered;
+                text-decoration: none;
+
+                &:hover {
+                color: #007bff;
+                }
             }
         }
     }
     </style>
 
 
+
   ```
 
 If you have faced any problem then contact with me `musiuralamo@gmail.com`
+<br> 
+<br>
 Thank you very much.
